@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    background: rgb(35, 32, 32);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(194, 193, 193, 0.1);
+    color:aliceblue;
+    border-color: #8d010b;
+    
+}
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+button {
+    padding: 10px 20px;
+    background-color: #8d010b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #530505;
+}
+#recommendations {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ece8e8;
+    justify-content: left;
+    list-style-type: none;
+}
+#recommendations ul, 
+#recommendations ol {
+    list-style-type: none;
+    padding: 0; /* Remove extra padding */
+    margin: 0; /* Remove extra margin */
+}
+
